@@ -1,5 +1,5 @@
 {
-  "name": "cheminfo-tslint-config",
+  "name": "tslint-config-cheminfo",
   "version": "1.0.0",
   "description": "tslint configuration",
   "main": "index.js",
