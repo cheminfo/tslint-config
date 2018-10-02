@@ -1,0 +1,29 @@
+{
+  "name": "cheminfo-tslint-config",
+  "version": "1.0.0",
+  "description": "tslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheminfo/tslint-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "typescript"
+  ],
+  "author": "Daniel Kostro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cheminfo/tslint-config/issues"
+  },
+  "homepage": "https://github.com/cheminfo/tslint-config#readme",
+  "peerDependencies": {
+    "tslint-config-prettier": "^1.15.0"
+  }
+}
