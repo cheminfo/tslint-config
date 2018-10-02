@@ -6,11 +6,11 @@ module.exports = {
   jsRules: {},
   rules: {
     forin: false,
+    'object-literal-key-quotes': [true, 'as-needed'],
     'object-literal-sort-keys': false,
-    'variable-name': false,
-    quotemark: [true, 'single', 'jsx-double'],
+    quotemark: [true, 'single', 'jsx-double', 'avoid-template', 'avoid-escape'],
     'prefer-template': true,
-    'arrow-parens': true
-  },
-  rulesDirectory: []
+    'arrow-parens': true,
+    semicolon: [true, 'always', 'strict-bound-class-methods']
+  }
 };
